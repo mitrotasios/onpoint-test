@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './YearToDateCourse.css'
 import { Line } from 'react-chartjs-2';
 import {
     Chart,
@@ -63,18 +64,18 @@ function YearToDate() {
         <div className="row h-100">
             <div className="col-12 h-100 px-3 py-4">
                 <div className="row h-50">
-                    <div className="col-6"> 
-                        <div className="row" style={{"height": "15%"}}>
-                            <div style={{"height": "100%", "width": "30%", "backgroundColor": "rgba(59, 130, 246, 0.5)", "display": "inline-block", "border-radius": "85px"}}></div>
-                            <div style={{"height": "100%", "width": "65%", "backgroundColor": "rgba(209, 213, 219, 1)", "display": "inline-block", "marginLeft": "5%", "border-radius": "85px"}}></div>
+                    <div className="col col-6"> 
+                        <div className="row card-title-row">
+                            <div className="main-title"></div>
+                            <div className="sec-title"></div>
                         </div>
-                        <div className="row" style={{"height": "40%", "marginTop":"5%"}}>
-                            <div className="col float-right text-right" style={{"color": "rgba(59, 130, 246, 1)", "fontFamily": "Helvetica", "fontStyle": "normal", "fontSize": "43.1552px", "fontWeight": "900", "display":"flex", "padding":"0px"}}>
+                        <div className="row figure-row">
+                            <div className="col float-right text-right figure-wrapper">
                                 $&nbsp;30,847
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="col float-right text-right" style={{"color": "rgba(0, 176, 80, 1)", "fontFamily": "Helvetica", "fontStyle": "normal", "fontSize": "16px", "display":"flex", "padding":"0px"}}>
+                        <div className="row sec-figure-row">
+                            <div className="col float-right text-right sec-figure-wrapper">
                                 <b>+13%</b>&nbsp;vs&nbsp;last&nbsp;year
                             </div>
                         </div>
