@@ -1,0 +1,11 @@
+.container > .card-header {
+    height: 50px;
+    background-color: white;
+    border: none;
+}
+
+.card-title {
+    color: rgba(59, 130, 246, 0.5);
+    font-weight: 500;
+    font-size: x-large;
+}

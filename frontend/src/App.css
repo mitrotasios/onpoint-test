@@ -3,3 +3,19 @@
   border-radius: 3.8315px;
   box-shadow: 0px 9.5045px 14.2567px rgba(0, 0, 0, 0.06), 0px 1.18806px 3.56419px rgba(0, 0, 0, 0.04), 0px 0px 0.594031px rgba(0, 0, 0, 0.04)
 }
+
+.kpi-row {
+  height: 30vh;
+}
+
+.chart-row {
+  height: 50vh;
+}
+
+.table-row {
+  height: 50vh;
+}
+
+.flex-fill {
+  flex: 1
+}

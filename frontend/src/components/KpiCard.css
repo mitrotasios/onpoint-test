@@ -1,0 +1,18 @@
+.kpi-card {
+    border: 1px solid lightgrey;
+    height: 100%;
+}
+
+.kpi-card-title {
+    font-size: large;
+    color: #1f2937;
+}
+
+.kpi-card-number {
+    font-size: xx-large;
+    color: rgba(0, 176, 80, 1);
+}
+
+.kpi-card-subtitle {
+    color: darkgrey;
+}
